@@ -1,0 +1,34 @@
+{
+  "hooks": [
+    {
+      "event": "command-executed",
+      "description": "Track when commands are used for analytics",
+      "enabled": true,
+      "script": "scripts/log-command.sh"
+    },
+    {
+      "event": "agent-invoked",
+      "description": "Log agent usage for improving recommendations",
+      "enabled": true,
+      "script": "scripts/log-agent.sh"
+    },
+    {
+      "event": "skill-accessed",
+      "description": "Track which skills are most used",
+      "enabled": true,
+      "script": "scripts/log-skill.sh"
+    },
+    {
+      "event": "learning-milestone",
+      "description": "Celebrate when users complete milestones",
+      "enabled": true,
+      "script": "scripts/milestone-tracker.sh"
+    }
+  ],
+  "settings": {
+    "auto_progress_tracking": true,
+    "achievement_badges": true,
+    "learning_recommendations": true,
+    "analytics_enabled": true
+  }
+}
