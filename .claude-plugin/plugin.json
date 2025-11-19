@@ -1,0 +1,117 @@
+{
+  "name": "developer-roadmap",
+  "version": "1.0.0",
+  "description": "Interactive learning plugin with 7 specialized agents covering Backend, Frontend, DevOps, Data Science, System Design, Security, and AI/ML roadmaps from developer-roadmap",
+  "author": "Claude Code",
+  "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-graphql",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamranahmedse/developer-roadmap"
+  },
+  "keywords": [
+    "learning",
+    "roadmap",
+    "backend",
+    "frontend",
+    "devops",
+    "data-science",
+    "system-design",
+    "security",
+    "ai-ml",
+    "developer-education",
+    "skill-progression"
+  ],
+  "agents": [
+    {
+      "id": "backend-agent",
+      "name": "Backend Developer",
+      "path": "agents/backend-agent.md"
+    },
+    {
+      "id": "frontend-agent",
+      "name": "Frontend Developer",
+      "path": "agents/frontend-agent.md"
+    },
+    {
+      "id": "devops-agent",
+      "name": "DevOps Engineer",
+      "path": "agents/devops-agent.md"
+    },
+    {
+      "id": "data-science-agent",
+      "name": "Data Scientist",
+      "path": "agents/data-science-agent.md"
+    },
+    {
+      "id": "system-design-agent",
+      "name": "System Design Architect",
+      "path": "agents/system-design-agent.md"
+    },
+    {
+      "id": "security-agent",
+      "name": "Cyber Security Specialist",
+      "path": "agents/security-agent.md"
+    },
+    {
+      "id": "ai-ml-agent",
+      "name": "AI/ML Engineer",
+      "path": "agents/ai-ml-agent.md"
+    }
+  ],
+  "commands": [
+    {
+      "id": "learn",
+      "name": "learn",
+      "path": "commands/learn.md",
+      "description": "Start interactive learning with roadmap guidance"
+    },
+    {
+      "id": "browse-agent",
+      "name": "browse-agent",
+      "path": "commands/browse-agent.md",
+      "description": "Explore all 7 specialized agents"
+    },
+    {
+      "id": "assess",
+      "name": "assess",
+      "path": "commands/assess.md",
+      "description": "Evaluate your knowledge and find skill gaps"
+    },
+    {
+      "id": "roadmap",
+      "name": "roadmap",
+      "path": "commands/roadmap.md",
+      "description": "View detailed roadmap for any role"
+    }
+  ],
+  "skills": [
+    {
+      "name": "backend-development",
+      "path": "skills/backend/SKILL.md"
+    },
+    {
+      "name": "frontend-development",
+      "path": "skills/frontend/SKILL.md"
+    },
+    {
+      "name": "devops-infrastructure",
+      "path": "skills/devops/SKILL.md"
+    },
+    {
+      "name": "data-science",
+      "path": "skills/data-science/SKILL.md"
+    },
+    {
+      "name": "system-design",
+      "path": "skills/system-design/SKILL.md"
+    },
+    {
+      "name": "cyber-security",
+      "path": "skills/security/SKILL.md"
+    },
+    {
+      "name": "ai-ml-engineering",
+      "path": "skills/ai-ml/SKILL.md"
+    }
+  ]
+}
