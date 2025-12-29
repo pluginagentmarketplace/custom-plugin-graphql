@@ -1,7 +1,7 @@
 {
   "name": "graphql-development-assistant",
   "version": "1.0.0",
-  "description": "GraphQL development plugin with specialized agents for schema design, resolvers, and API optimization",
+  "description": "GraphQL plugin with specialized agents for schema design, resolvers, Apollo, and API optimization",
   "author": "Claude Code",
   "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-graphql",
   "repository": {
@@ -22,41 +22,13 @@
     "skill-progression"
   ],
   "agents": [
-    {
-      "id": "backend-agent",
-      "name": "Backend Developer",
-      "path": "agents/backend-agent.md"
-    },
-    {
-      "id": "frontend-agent",
-      "name": "Frontend Developer",
-      "path": "agents/frontend-agent.md"
-    },
-    {
-      "id": "devops-agent",
-      "name": "DevOps Engineer",
-      "path": "agents/devops-agent.md"
-    },
-    {
-      "id": "data-science-agent",
-      "name": "Data Scientist",
-      "path": "agents/data-science-agent.md"
-    },
-    {
-      "id": "system-design-agent",
-      "name": "System Design Architect",
-      "path": "agents/system-design-agent.md"
-    },
-    {
-      "id": "security-agent",
-      "name": "Cyber Security Specialist",
-      "path": "agents/security-agent.md"
-    },
-    {
-      "id": "ai-ml-agent",
-      "name": "AI/ML Engineer",
-      "path": "agents/ai-ml-agent.md"
-    }
+    "./agents/01-graphql-fundamentals.md",
+    "./agents/02-graphql-schema.md",
+    "./agents/03-graphql-resolvers.md",
+    "./agents/04-graphql-apollo-server.md",
+    "./agents/05-graphql-apollo-client.md",
+    "./agents/06-graphql-security.md",
+    "./agents/07-graphql-codegen.md"
   ],
   "commands": [
     {
@@ -85,34 +57,13 @@
     }
   ],
   "skills": [
-    {
-      "name": "backend-development",
-      "path": "skills/backend/SKILL.md"
-    },
-    {
-      "name": "frontend-development",
-      "path": "skills/frontend/SKILL.md"
-    },
-    {
-      "name": "devops-infrastructure",
-      "path": "skills/devops/SKILL.md"
-    },
-    {
-      "name": "data-science",
-      "path": "skills/data-science/SKILL.md"
-    },
-    {
-      "name": "system-design",
-      "path": "skills/system-design/SKILL.md"
-    },
-    {
-      "name": "cyber-security",
-      "path": "skills/security/SKILL.md"
-    },
-    {
-      "name": "ai-ml-engineering",
-      "path": "skills/ai-ml/SKILL.md"
-    }
+    "./skills/graphql-fundamentals/SKILL.md",
+    "./skills/graphql-schema-design/SKILL.md",
+    "./skills/graphql-resolvers/SKILL.md",
+    "./skills/graphql-apollo-server/SKILL.md",
+    "./skills/graphql-apollo-client/SKILL.md",
+    "./skills/graphql-security/SKILL.md",
+    "./skills/graphql-codegen/SKILL.md"
   ],
   "license": "SEE LICENSE IN LICENSE"
 }

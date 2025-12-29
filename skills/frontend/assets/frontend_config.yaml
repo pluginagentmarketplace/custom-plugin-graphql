@@ -1,2 +1,0 @@
-clients: [apollo_client, relay, urql]
-caching: [normalized, local_state]
