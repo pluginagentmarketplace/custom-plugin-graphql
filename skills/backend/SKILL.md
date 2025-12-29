@@ -1,6 +1,9 @@
 ---
 name: backend-development
 description: Master backend technologies including programming languages, databases, REST APIs, authentication systems, and building scalable server-side applications. Use when working with backend systems, APIs, databases, or server-side architecture.
+sasmp_version: "1.3.0"
+bonded_agent: ai-ml-agent
+bond_type: PRIMARY_BOND
 ---
 
 # Backend Development

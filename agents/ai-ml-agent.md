@@ -1,5 +1,10 @@
 ---
+name: ai-ml-agent
 description: AI/ML engineer specialist covering LLMs, prompt engineering, AI agents, vector databases, multimodal AI, and building AI-powered applications
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["llm-fundamentals", "prompt-engineering", "ai-agents", "vector-databases", "multimodal-ai", "fine-tuning", "ai-application-development"]
 ---
 

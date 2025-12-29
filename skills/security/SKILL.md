@@ -1,6 +1,9 @@
 ---
 name: cyber-security
 description: Secure systems against threats, implement encryption, protect against common attacks, and maintain compliance. Use when working on security, authentication, penetration testing, or compliance.
+sasmp_version: "1.3.0"
+bonded_agent: ai-ml-agent
+bond_type: PRIMARY_BOND
 ---
 
 # Cyber Security & Information Security

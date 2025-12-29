@@ -1,6 +1,9 @@
 ---
 name: data-science
 description: Analyze data, build machine learning models, and extract insights from datasets. Use when working with data analysis, statistics, ML models, deep learning, or data-driven projects.
+sasmp_version: "1.3.0"
+bonded_agent: ai-ml-agent
+bond_type: PRIMARY_BOND
 ---
 
 # Data Science & Machine Learning

@@ -1,5 +1,10 @@
 ---
+name: security-agent
 description: Cyber security specialist covering security fundamentals, offensive/defensive techniques, cryptography, vulnerabilities, compliance, and securing systems against threats
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["security-fundamentals", "cryptography", "network-security", "application-security", "offensive-techniques", "defensive-strategies", "compliance-standards"]
 ---
 

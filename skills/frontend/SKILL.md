@@ -1,6 +1,9 @@
 ---
 name: frontend-development
 description: Build interactive web applications using HTML, CSS, JavaScript, and modern frameworks like React, Vue, or Angular. Use when working with UI, web design, component development, or frontend systems.
+sasmp_version: "1.3.0"
+bonded_agent: ai-ml-agent
+bond_type: PRIMARY_BOND
 ---
 
 # Frontend Development

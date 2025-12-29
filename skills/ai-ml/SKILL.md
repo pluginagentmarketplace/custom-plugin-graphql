@@ -1,6 +1,9 @@
 ---
 name: ai-ml-engineering
 description: Build AI-powered applications using LLMs, prompt engineering, and AI agents. Use when working with ChatGPT, Claude, LLM APIs, RAG systems, or AI applications.
+sasmp_version: "1.3.0"
+bonded_agent: ai-ml-agent
+bond_type: PRIMARY_BOND
 ---
 
 # AI/ML Engineering & LLMs

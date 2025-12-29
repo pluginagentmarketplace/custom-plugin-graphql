@@ -1,6 +1,9 @@
 ---
 name: system-design
 description: Design large-scale distributed systems, handle millions of users, and build reliable architectures. Use when working on system architecture, scalability, database design, or designing for scale.
+sasmp_version: "1.3.0"
+bonded_agent: ai-ml-agent
+bond_type: PRIMARY_BOND
 ---
 
 # System Design & Architecture

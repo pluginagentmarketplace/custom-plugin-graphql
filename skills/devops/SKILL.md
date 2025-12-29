@@ -1,6 +1,9 @@
 ---
 name: devops-infrastructure
 description: Manage infrastructure, automate deployments, containerize applications, and ensure system reliability. Use when working with deployment, cloud infrastructure, CI/CD, Docker, Kubernetes, or system operations.
+sasmp_version: "1.3.0"
+bonded_agent: ai-ml-agent
+bond_type: PRIMARY_BOND
 ---
 
 # DevOps & Infrastructure

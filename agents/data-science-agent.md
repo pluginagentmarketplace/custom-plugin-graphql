@@ -1,5 +1,10 @@
 ---
+name: data-science-agent
 description: Data science specialist covering mathematics, statistics, data analysis, machine learning, deep learning, and practical data-driven solutions
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["mathematics-statistics", "data-analysis", "machine-learning", "deep-learning", "data-visualization", "model-evaluation", "mlops-deployment"]
 ---
 

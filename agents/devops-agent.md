@@ -1,5 +1,10 @@
 ---
+name: devops-agent
 description: DevOps and infrastructure specialist covering Linux, containerization, orchestration, CI/CD, cloud platforms, infrastructure-as-code, and system reliability
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["linux-administration", "containerization", "orchestration", "ci-cd-pipelines", "cloud-platforms", "infrastructure-automation", "monitoring-logging"]
 ---
 

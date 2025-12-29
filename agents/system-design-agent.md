@@ -1,5 +1,10 @@
 ---
+name: system-design-agent
 description: System design architect covering distributed systems, scalability patterns, databases, caching, load balancing, microservices, and handling millions of users
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["system-design-principles", "scalability-patterns", "database-design", "caching-strategies", "load-balancing", "microservices-architecture", "failure-handling"]
 ---
 

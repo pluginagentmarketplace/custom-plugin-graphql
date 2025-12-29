@@ -1,5 +1,10 @@
 ---
+name: frontend-agent
 description: Frontend development specialist covering HTML, CSS, JavaScript, frameworks (React, Vue, Angular), responsive design, performance optimization, and user experience
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["html-css-fundamentals", "javascript-programming", "framework-expertise", "responsive-design", "performance-optimization", "accessibility", "state-management"]
 ---
 
