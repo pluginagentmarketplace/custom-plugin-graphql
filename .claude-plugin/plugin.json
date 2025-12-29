@@ -1,7 +1,7 @@
 {
-  "name": "developer-roadmap",
+  "name": "graphql-development-assistant",
   "version": "1.0.0",
-  "description": "Interactive learning plugin with 7 specialized agents covering Backend, Frontend, DevOps, Data Science, System Design, Security, and AI/ML roadmaps from developer-roadmap",
+  "description": "GraphQL development plugin with specialized agents for schema design, resolvers, and API optimization",
   "author": "Claude Code",
   "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-graphql",
   "repository": {
