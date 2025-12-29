@@ -1,0 +1,3 @@
+schema_types: [query, mutation, subscription]
+clients: [apollo, relay, urql]
+servers: [apollo_server, graphql_yoga]

@@ -1,3 +1,9 @@
+---
+name: learn
+description: Interactive Learning Path
+allowed-tools: Read
+---
+
 # /learn - Interactive Learning Path
 
 Interactive command to start learning with guided roadmaps. Choose your learning path and get personalized guidance.

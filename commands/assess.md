@@ -1,3 +1,9 @@
+---
+name: assess
+description: Knowledge Assessment & Skill Gap Analysis
+allowed-tools: Read
+---
+
 # /assess - Knowledge Assessment & Skill Gap Analysis
 
 Evaluate your current knowledge level and identify skill gaps across different roles.

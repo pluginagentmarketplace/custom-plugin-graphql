@@ -1,7 +1,6 @@
 # DEVELOPER ROADMAP REPOSITORY - COMPREHENSIVE ANALYSIS
 ## 7 Role Roadmaps for Plugin Agent Development
 
-Repository: https://github.com/kamranahmedse/developer-roadmap
 Analysis Date: 2025-11-18
 
 ---
@@ -796,7 +795,6 @@ Based on this analysis, plugin agents should:
 ## FILE LOCATIONS IN REPOSITORY
 
 ```
-/home/user/developer-roadmap/
 ├── src/data/roadmaps/
 │   ├── backend/
 │   │   ├── backend.json (main roadmap)

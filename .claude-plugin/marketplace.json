@@ -1,0 +1,15 @@
+{
+  "name": "pluginagentmarketplace-graphql",
+  "owner": {
+    "name": "Plugin Agent Marketplace",
+    "email": "pluginagentmarketplace@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "developer-roadmap",
+      "source": "./",
+      "description": "Claude Code plugin for graphql development",
+      "version": "1.0.0"
+    }
+  ]
+}

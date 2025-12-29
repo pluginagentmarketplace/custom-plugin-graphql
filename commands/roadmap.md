@@ -1,3 +1,9 @@
+---
+name: roadmap
+description: Detailed Role Roadmaps
+allowed-tools: Read
+---
+
 # /roadmap - Detailed Role Roadmaps
 
 View comprehensive roadmap for any of the 7 specialized roles with complete learning progression.

@@ -1,3 +1,9 @@
+---
+name: browse-agent
+description: agent - Explore Specialized Agents
+allowed-tools: Read
+---
+
 # /browse-agent - Explore Specialized Agents
 
 Discover and explore the 7 specialized agents available in the plugin.
