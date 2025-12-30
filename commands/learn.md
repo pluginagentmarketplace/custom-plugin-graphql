@@ -1,88 +1,117 @@
 ---
 name: learn
-description: Interactive Learning Path
+description: Interactive GraphQL Learning Path
 allowed-tools: Read
 ---
 
-# /learn - Interactive Learning Path
+# /learn - Interactive GraphQL Learning Path
 
-Interactive command to start learning with guided roadmaps. Choose your learning path and get personalized guidance.
+Interactive command to start learning GraphQL with guided roadmaps. Choose your learning path and get personalized guidance.
 
 ## Usage
 
 ```
-/learn
+/learn [topic]
 ```
 
 ## What This Command Does
 
-1. **Role Selection**: Choose from 7 specialized roles:
-   - Backend Developer
-   - Frontend Developer
-   - DevOps Engineer
-   - Data Scientist
-   - System Design Architect
-   - Cyber Security Specialist
-   - AI/ML Engineer
+1. **Topic Selection**: Choose from 7 GraphQL learning paths:
+   - GraphQL Fundamentals
+   - Schema Design
+   - Resolvers & DataLoader
+   - Apollo Server
+   - Apollo Client
+   - Security
+   - Code Generation
 
 2. **Level Assessment**: Determine your current level:
-   - Beginner: Just starting out
-   - Intermediate: Have some experience
-   - Advanced: Experienced, need deep knowledge
+   - Beginner: New to GraphQL
+   - Intermediate: Built basic GraphQL APIs
+   - Advanced: Production experience needed
 
 3. **Learning Path**: Get customized roadmap with:
-   - Topics and subtopics
-   - Recommended learning resources
-   - Hands-on projects
-   - Estimated time to proficiency
-   - Next steps after completion
+   - Core concepts and patterns
+   - Code examples and best practices
+   - Hands-on exercises
+   - Real-world project ideas
+   - Related skills and agents
 
 4. **Progress Tracking**:
    - Mark topics as completed
    - Track learning progress
-   - Get achievement badges
+   - Unlock advanced topics
 
 ## Example Flow
 
 ```
 > /learn
 
-Welcome to Developer Roadmap Learning!
+Welcome to GraphQL Learning Path!
 
-Select your role:
-1. Backend Developer
-2. Frontend Developer
-3. DevOps Engineer
-4. Data Scientist
-5. System Design Architect
-6. Cyber Security Specialist
-7. AI/ML Engineer
+Select your topic:
+1. GraphQL Fundamentals (Types, Queries, Mutations)
+2. Schema Design (Patterns, Pagination, Errors)
+3. Resolvers & DataLoader (N+1, Batching)
+4. Apollo Server (Plugins, Federation, Caching)
+5. Apollo Client (Hooks, Cache, Subscriptions)
+6. Security (Auth, Rate Limiting, Validation)
+7. Code Generation (TypeScript, React Hooks)
 
 Your choice: 1
 
 Select your level:
-1. Beginner (0-6 months experience)
-2. Intermediate (6-18 months)
-3. Advanced (18+ months)
+1. Beginner (New to GraphQL)
+2. Intermediate (Basic APIs built)
+3. Advanced (Production optimization)
 
 Your choice: 1
 
-✅ Backend Developer - Beginner Path
-Estimated: 12-18 months to job-ready
+✅ GraphQL Fundamentals - Beginner Path
+Estimated: 2-4 hours
 
-📚 Phase 1: Programming Fundamentals (Months 1-2)
-- Python basics
-- Data structures
-- Algorithms
-- Control flow
+📚 Phase 1: Core Concepts
+- Scalar types (String, Int, Float, Boolean, ID)
+- Object types and fields
+- Non-null (!) and list ([]) modifiers
+- Enums and input types
 
-Would you like to dive into Phase 1? (yes/no)
+📚 Phase 2: Operations
+- Writing queries
+- Variables and aliases
+- Fragments for reusability
+- Mutations for data changes
+
+📚 Phase 3: Subscriptions
+- Real-time data with subscriptions
+- WebSocket connections
+- Filtering subscription events
+
+Would you like to start with Phase 1? (yes/no)
 ```
+
+## Learning Paths Overview
+
+| Path | Duration | Prerequisites |
+|------|----------|---------------|
+| Fundamentals | 2-4 hours | None |
+| Schema Design | 3-5 hours | Fundamentals |
+| Resolvers | 4-6 hours | Fundamentals, Schema |
+| Apollo Server | 4-6 hours | Resolvers |
+| Apollo Client | 4-6 hours | Fundamentals |
+| Security | 3-5 hours | Server basics |
+| Code Generation | 2-4 hours | TypeScript basics |
 
 ## Tips
 
-- Choose a role that aligns with your career goals
-- Be honest about your level for better recommendations
-- Start with fundamentals before advanced topics
-- Complete hands-on projects for practical experience
-- Ask agents for help on specific topics
+- Start with Fundamentals if you're new to GraphQL
+- Complete prerequisites before advanced topics
+- Practice with the code examples in each skill
+- Use related agents for deeper guidance
+- Build a real project combining multiple topics
+
+## Related Commands
+
+- `/assess` - Test your GraphQL knowledge
+- `/browse-agent` - Explore GraphQL agents
+- `/roadmap` - View complete learning roadmaps

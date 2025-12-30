@@ -1,141 +1,171 @@
 ---
 name: browse-agent
-description: agent - Explore Specialized Agents
+description: Explore GraphQL Specialized Agents
 allowed-tools: Read
 ---
 
-# /browse-agent - Explore Specialized Agents
+# /browse-agent - Explore GraphQL Agents
 
-Discover and explore the 7 specialized agents available in the plugin.
+Discover and explore the 7 specialized GraphQL agents available in this plugin.
 
 ## Usage
 
 ```
-/browse-agent
+/browse-agent [agent-name]
 ```
 
 ## Agents Overview
 
-### 1. Backend Developer Agent
-Master server-side technologies, databases, APIs, and scalable systems.
+### 1. GraphQL Fundamentals Agent
+> Master core GraphQL concepts and type system
 
-**Topics**:
-- Programming languages (Python, Node.js, Java, Go)
-- Databases (SQL, NoSQL)
-- REST/GraphQL APIs
-- Authentication & authorization
-- System architecture
-- Performance optimization
+**Expertise**:
+- Type system (scalars, objects, enums, interfaces, unions)
+- Queries, mutations, subscriptions
+- Variables, aliases, fragments
+- Nullability and list modifiers
 
-**Best For**: Building web services, APIs, databases, backend systems
+**Best For**: Learning GraphQL basics, understanding type system, writing operations
 
----
-
-### 2. Frontend Developer Agent
-Build interactive user interfaces with modern frameworks and responsive design.
-
-**Topics**:
-- HTML, CSS, JavaScript
-- React, Vue, Angular
-- Responsive design
-- Performance optimization
-- Accessibility
-- State management
-
-**Best For**: Web UI, responsive design, frontend applications
+**Invoke**: `Task(subagent_type="graphql:01-graphql-fundamentals")`
 
 ---
 
-### 3. DevOps Engineer Agent
-Infrastructure, deployment, containerization, and system reliability.
+### 2. GraphQL Schema Agent
+> Design production-grade GraphQL schemas
 
-**Topics**:
-- Linux administration
-- Docker & containerization
-- Kubernetes orchestration
-- CI/CD pipelines
-- Cloud platforms (AWS, Azure, GCP)
-- Infrastructure as Code
-- Monitoring & logging
+**Expertise**:
+- Naming conventions and best practices
+- Relay-style connection pagination
+- Error handling patterns (Payload, Union)
+- Node interface for global object identification
+- Schema organization and modularization
 
-**Best For**: Deployment, infrastructure, automation, cloud platforms
+**Best For**: Designing APIs, pagination patterns, error handling strategy
 
----
-
-### 4. Data Scientist Agent
-Data analysis, machine learning, and building data-driven solutions.
-
-**Topics**:
-- Statistics & mathematics
-- Data analysis (Pandas, NumPy)
-- Machine learning algorithms
-- Deep learning (TensorFlow, PyTorch)
-- Data visualization
-- MLOps
-
-**Best For**: Data analysis, ML models, predictions, analytics
+**Invoke**: `Task(subagent_type="graphql:02-graphql-schema")`
 
 ---
 
-### 5. System Design Architect Agent
-Design large-scale systems, handle millions of users, build reliable architectures.
+### 3. GraphQL Resolvers Agent
+> Build performant data fetching with DataLoader
 
-**Topics**:
-- Design principles
-- Databases & scalability
-- Caching strategies
-- Load balancing
-- Microservices
-- Distributed systems
-- Failure handling
+**Expertise**:
+- Resolver signature and patterns
+- DataLoader for N+1 prevention
+- Batching and caching strategies
+- Context design and setup
+- Subscription resolvers with PubSub
 
-**Best For**: System architecture, scaling, design interviews, large systems
+**Best For**: Performance optimization, N+1 issues, resolver implementation
 
----
-
-### 6. Cyber Security Specialist Agent
-Secure systems against threats, implement encryption, and maintain compliance.
-
-**Topics**:
-- Security fundamentals
-- Cryptography
-- Authentication & authorization
-- Network security
-- Application security
-- Penetration testing
-- Compliance standards
-
-**Best For**: Security implementation, threat detection, secure coding
+**Invoke**: `Task(subagent_type="graphql:03-graphql-resolvers")`
 
 ---
 
-### 7. AI/ML Engineer Agent
-Build AI-powered applications with LLMs, prompt engineering, and AI agents.
+### 4. Apollo Server Agent
+> Production-ready GraphQL server configuration
 
-**Topics**:
-- LLM fundamentals
-- Prompt engineering
-- AI agents
-- RAG systems
-- Vector databases
-- Multimodal AI
-- LLM deployment
+**Expertise**:
+- Apollo Server v4 setup and configuration
+- Plugin system and lifecycle hooks
+- Apollo Federation for microservices
+- Server-side caching (Redis, CDN)
+- Error formatting and logging
 
-**Best For**: AI applications, chatbots, LLM integration, AI agents
+**Best For**: Server setup, federation architecture, production deployment
+
+**Invoke**: `Task(subagent_type="graphql:04-graphql-apollo-server")`
 
 ---
 
-## How to Use
+### 5. Apollo Client Agent
+> React integration with Apollo Client 3.x
 
-1. Browse through all agents
-2. Select an agent that matches your interest
-3. Ask questions specific to that agent's expertise
-4. Get guidance on topics and learning paths
-5. Work through recommended projects
+**Expertise**:
+- React hooks (useQuery, useMutation, useSubscription)
+- Cache management and normalization
+- Optimistic UI updates
+- Local state with reactive variables
+- Error handling and loading states
 
-## Pro Tips
+**Best For**: React apps, cache strategies, real-time updates
 
-- Each agent has specialized knowledge in their domain
-- Combine multiple agents for comprehensive learning
-- Ask agents for project ideas and guidance
-- Get code examples and best practices from skills
+**Invoke**: `Task(subagent_type="graphql:05-graphql-apollo-client")`
+
+---
+
+### 6. GraphQL Security Agent
+> Secure GraphQL APIs against vulnerabilities
+
+**Expertise**:
+- JWT authentication with refresh tokens
+- Authorization with graphql-shield
+- Rate limiting (per-user, per-operation)
+- Query complexity and depth limiting
+- Input validation and sanitization
+- CORS and security headers
+
+**Best For**: Auth implementation, security hardening, vulnerability prevention
+
+**Invoke**: `Task(subagent_type="graphql:06-graphql-security")`
+
+---
+
+### 7. GraphQL Codegen Agent
+> TypeScript type generation from schemas
+
+**Expertise**:
+- GraphQL Code Generator configuration
+- TypeScript types from schema
+- React Apollo hooks generation
+- Near-operation-file preset
+- Fragment handling and colocation
+- Client preset (modern approach)
+
+**Best For**: Type safety, React hooks generation, TypeScript integration
+
+**Invoke**: `Task(subagent_type="graphql:07-graphql-codegen")`
+
+---
+
+## Agent Capabilities Matrix
+
+| Agent | Schema | Server | Client | Security | Types |
+|-------|--------|--------|--------|----------|-------|
+| Fundamentals | ✅ | - | - | - | - |
+| Schema | ✅✅ | - | - | - | - |
+| Resolvers | ✅ | ✅ | - | - | - |
+| Apollo Server | - | ✅✅ | - | ✅ | - |
+| Apollo Client | - | - | ✅✅ | - | ✅ |
+| Security | - | ✅ | - | ✅✅ | - |
+| Codegen | ✅ | - | ✅ | - | ✅✅ |
+
+## How to Use Agents
+
+1. **Browse agents** to find the right expertise
+2. **Invoke agent** using Task tool with subagent_type
+3. **Ask specific questions** within their domain
+4. **Combine agents** for complex tasks
+
+## Example Interactions
+
+```
+# Learn about DataLoader
+Task(subagent_type="graphql:03-graphql-resolvers")
+"How do I implement DataLoader for a hasMany relationship?"
+
+# Set up authentication
+Task(subagent_type="graphql:06-graphql-security")
+"Implement JWT authentication with refresh tokens"
+
+# Generate TypeScript types
+Task(subagent_type="graphql:07-graphql-codegen")
+"Configure codegen for React Apollo hooks"
+```
+
+## Related Commands
+
+- `/learn` - Start guided learning path
+- `/assess` - Evaluate your knowledge
+- `/roadmap` - View complete roadmaps
