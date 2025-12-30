@@ -1,212 +1,261 @@
 ---
 name: roadmap
-description: Detailed Role Roadmaps
+description: GraphQL Learning Roadmaps
 allowed-tools: Read
 ---
 
-# /roadmap - Detailed Role Roadmaps
+# /roadmap - GraphQL Learning Roadmaps
 
-View comprehensive roadmap for any of the 7 specialized roles with complete learning progression.
+View comprehensive roadmaps for mastering GraphQL development.
 
 ## Usage
 
 ```
-/roadmap [role-name]
+/roadmap [path]
 ```
 
-## Available Roles
+## Available Paths
 
-1. `backend`
-2. `frontend`
-3. `devops`
-4. `data-science`
-5. `system-design`
-6. `security`
-7. `ai-ml`
+1. `fundamentals` - Core GraphQL concepts
+2. `schema` - Schema design patterns
+3. `resolvers` - Performance & DataLoader
+4. `server` - Apollo Server mastery
+5. `client` - Apollo Client mastery
+6. `security` - Securing GraphQL APIs
+7. `codegen` - TypeScript code generation
+8. `full-stack` - Complete GraphQL developer
 
-## Example: Backend Roadmap
+---
+
+## Full-Stack GraphQL Developer Roadmap
 
 ```
-> /roadmap backend
+> /roadmap full-stack
 
-📋 Backend Developer Roadmap
+📋 Full-Stack GraphQL Developer Roadmap
 
-Total Learning Time: 12-18 months
-Total Topics: 173 nodes / 145 core topics
-Job-Ready At: Month 12-14
-Career Path: Full-stack, Backend Specialist, Architect
-
-═══════════════════════════════════════════════════════════════
-
-PHASE 1: PROGRAMMING FUNDAMENTALS (Months 1-2)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-📌 Core Topics:
-  • Pick a language (Python recommended)
-  • Variables, data types, operators
-  • Control flow (if/else, loops)
-  • Functions and scope
-  • Basic data structures (lists, dicts)
-
-🛠️ Practical:
-  • 50+ coding exercises
-  • Build: Simple calculator app
-  • Time: 4 weeks
+Total Learning Time: 4-8 weeks
+Total Topics: 7 domains
+Job-Ready At: Week 4-6
+Career Path: GraphQL Developer, API Architect
 
 ═══════════════════════════════════════════════════════════════
 
-PHASE 2: DATA STRUCTURES & ALGORITHMS (Months 2-4)
+PHASE 1: FOUNDATIONS (Week 1)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📌 Core Topics:
-  • Arrays and linked lists
-  • Stacks and queues
-  • Trees and graphs
-  • Sorting algorithms
-  • Searching techniques
-  • Time/space complexity
+📌 GraphQL Fundamentals:
+  • Type system (scalars, objects, enums)
+  • Queries and query variables
+  • Mutations for data changes
+  • Subscriptions basics
+  • Fragments and aliases
 
-🛠️ Practical:
-  • LeetCode practice (100+ problems)
-  • Build: Efficient data processing app
-  • Time: 6 weeks
+🛠️ Skill: graphql-fundamentals
+⏱️ Time: 2-4 hours
+
+📌 Schema Design:
+  • Naming conventions
+  • Input types and payloads
+  • Relay-style pagination
+  • Error handling patterns
+  • Interface and union types
+
+🛠️ Skill: graphql-schema-design
+⏱️ Time: 3-5 hours
 
 ═══════════════════════════════════════════════════════════════
 
-PHASE 3: DATABASES (Months 4-6)
+PHASE 2: SERVER DEVELOPMENT (Week 2)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📌 Core Topics:
-  • SQL fundamentals (PostgreSQL)
-  • Schema design
-  • Normalization
-  • Joins and aggregations
-  • Indexing and optimization
-  • NoSQL basics (MongoDB)
+📌 Resolvers & DataLoader:
+  • Resolver signature and patterns
+  • DataLoader for N+1 prevention
+  • Batching and caching
+  • Context design
+  • Subscription resolvers
 
-🛠️ Practical:
-  • Design 5+ database schemas
-  • Build: Complex query system
-  • Time: 6 weeks
+🛠️ Skill: graphql-resolvers
+⏱️ Time: 4-6 hours
 
-═══════════════════════════════════════════════════════════════
-
-PHASE 4: WEB & REST APIS (Months 6-8)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-📌 Core Topics:
-  • HTTP/REST principles
-  • API design
-  • Request/response handling
+📌 Apollo Server:
+  • Server v4 configuration
+  • Plugin lifecycle
   • Error handling
-  • Web framework (Flask/Django/Express)
+  • Caching strategies
+  • Performance monitoring
 
-🛠️ Practical:
-  • Build 3 REST APIs
-  • Project: Blog API with auth
-  • Time: 6 weeks
-
-═══════════════════════════════════════════════════════════════
-
-PHASE 5: AUTHENTICATION & SECURITY (Months 8-10)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-📌 Core Topics:
-  • Authentication mechanisms (JWT, OAuth2)
-  • Password hashing
-  • HTTPS and encryption
-  • Common vulnerabilities
-  • Secure coding practices
-
-🛠️ Practical:
-  • Implement JWT auth system
-  • Build: Secure user management system
-  • Time: 4 weeks
+🛠️ Skill: graphql-apollo-server
+⏱️ Time: 4-6 hours
 
 ═══════════════════════════════════════════════════════════════
 
-PHASE 6: SYSTEM ARCHITECTURE (Months 10-14)
+PHASE 3: CLIENT DEVELOPMENT (Week 3)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📌 Core Topics:
-  • Design patterns
-  • Monolithic vs microservices
-  • Caching strategies (Redis)
-  • Load balancing
-  • Database scaling
-  • Message queues
+📌 Apollo Client:
+  • React hooks (useQuery, useMutation)
+  • Cache configuration
+  • Optimistic updates
+  • Local state management
+  • Real-time subscriptions
 
-🛠️ Practical:
-  • Design scalable system
-  • Implement caching layer
-  • Time: 8 weeks
+🛠️ Skill: graphql-apollo-client
+⏱️ Time: 4-6 hours
+
+📌 Code Generation:
+  • TypeScript type generation
+  • React hooks generation
+  • Configuration options
+  • Fragment handling
+
+🛠️ Skill: graphql-codegen
+⏱️ Time: 2-4 hours
 
 ═══════════════════════════════════════════════════════════════
 
-PHASE 7: DEVOPS & DEPLOYMENT (Months 14-18)
+PHASE 4: PRODUCTION READINESS (Week 4)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📌 Core Topics:
-  • Docker containerization
-  • CI/CD pipelines
-  • Basic cloud (AWS/GCP)
-  • Monitoring and logging
-  • Performance optimization
+📌 Security:
+  • JWT authentication
+  • Authorization with graphql-shield
+  • Rate limiting
+  • Query complexity limits
+  • Input validation
 
-🛠️ Practical:
-  • Containerize application
-  • Deploy to cloud
-  • Time: 8 weeks
+🛠️ Skill: graphql-security
+⏱️ Time: 3-5 hours
+
+📌 Advanced Topics:
+  • Apollo Federation
+  • Schema stitching
+  • Persisted queries
+  • CDN caching
+  • Monitoring & observability
+
+⏱️ Time: 4-8 hours
 
 ═══════════════════════════════════════════════════════════════
 
 📈 CAREER PROGRESSION
 
-Junior Backend: Month 12-14
-  └─ Ready for first backend role
-  └─ Can contribute to production systems
-  └─ Typical salary: $70-90k
+Junior GraphQL Developer: Week 4
+  └─ Build full-stack GraphQL apps
+  └─ Implement auth and basic security
+  └─ Use TypeScript code generation
 
-Mid-level Backend: Month 18-24
-  └─ Can design systems
-  └─ Mentor junior developers
-  └─ Typical salary: $90-120k
+Mid-Level GraphQL Developer: Month 2-3
+  └─ Design scalable schemas
+  └─ Optimize performance (DataLoader, caching)
+  └─ Implement federation
 
-Senior Backend: Year 3+
+Senior GraphQL Developer: Month 6+
   └─ Architectural decisions
-  └─ Technical leadership
-  └─ Typical salary: $120-160k+
+  └─ Security audits
+  └─ Team leadership
 
 ═══════════════════════════════════════════════════════════════
 
 💡 Tips for Success
 
-✓ Practice hands-on projects throughout
-✓ Build portfolio with real projects
-✓ Contribute to open source
-✓ Read other people's code
-✓ Stay updated with new technologies
-✓ Join communities and network
-✓ Do system design interview prep
+✓ Complete fundamentals before advanced topics
+✓ Build a real project (e-commerce, social app)
+✓ Practice N+1 prevention with DataLoader
+✓ Always use TypeScript with codegen
+✓ Implement security from the start
+✓ Monitor query performance
 
 ═══════════════════════════════════════════════════════════════
 
-🎯 Ready to Start? Use: /learn backend
+🎯 Ready to Start? Use: /learn fundamentals
 ```
 
-## Features
+---
 
-- Complete roadmap breakdown
-- Learning phases with estimated time
-- Topics and subtopics
-- Practical projects at each stage
-- Career progression timeline
-- Success tips and best practices
+## Individual Topic Roadmaps
 
-## Pro Tips
+### GraphQL Fundamentals
 
-- Follow phases in order
-- Don't rush through fundamentals
-- Complete practical projects
-- Review and reinforce learning
-- Adjust pace based on your learning speed
+```
+Phase 1: Type System (1 hour)
+├── Scalar types
+├── Object types
+├── Enums
+└── Input types
+
+Phase 2: Operations (1-2 hours)
+├── Queries
+├── Mutations
+├── Variables
+└── Fragments
+
+Phase 3: Advanced Types (1 hour)
+├── Interfaces
+├── Unions
+├── Subscriptions
+└── Custom scalars
+```
+
+### Schema Design
+
+```
+Phase 1: Naming & Structure (1 hour)
+├── Type naming conventions
+├── Field naming patterns
+└── Schema organization
+
+Phase 2: Pagination (1-2 hours)
+├── Relay connection spec
+├── Cursor-based pagination
+└── PageInfo implementation
+
+Phase 3: Error Handling (1-2 hours)
+├── Payload pattern
+├── Union error types
+└── Error codes
+```
+
+### Performance Optimization
+
+```
+Phase 1: DataLoader (2 hours)
+├── N+1 problem understanding
+├── Batching implementation
+├── Caching strategies
+└── Per-request instances
+
+Phase 2: Caching (2 hours)
+├── Response caching
+├── CDN integration
+├── Redis caching
+└── Cache invalidation
+
+Phase 3: Query Analysis (2 hours)
+├── Query complexity
+├── Depth limiting
+├── Persisted queries
+└── Performance monitoring
+```
+
+---
+
+## Quick Reference
+
+| Roadmap | Duration | Key Skills |
+|---------|----------|------------|
+| Fundamentals | 2-4 hours | Types, Operations |
+| Schema | 3-5 hours | Patterns, Pagination |
+| Resolvers | 4-6 hours | DataLoader, Context |
+| Server | 4-6 hours | Apollo, Plugins |
+| Client | 4-6 hours | Hooks, Cache |
+| Security | 3-5 hours | Auth, Rate Limiting |
+| Codegen | 2-4 hours | TypeScript, Hooks |
+| Full-Stack | 4-8 weeks | All domains |
+
+## Related Commands
+
+- `/learn` - Start interactive learning
+- `/assess` - Evaluate current level
+- `/browse-agent` - Get agent help

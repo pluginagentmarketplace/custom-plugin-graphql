@@ -1,25 +1,27 @@
 {
   "name": "graphql-development-assistant",
-  "version": "1.0.0",
-  "description": "GraphQL plugin with specialized agents for schema design, resolvers, Apollo, and API optimization",
+  "version": "2.0.0",
+  "description": "Production-grade GraphQL plugin with 7 specialized agents for schema design, resolvers, Apollo Server/Client, security, and code generation",
   "author": "Claude Code",
   "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-graphql",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kamranahmedse/developer-roadmap"
+    "url": "https://github.com/pluginagentmarketplace/custom-plugin-graphql"
   },
   "keywords": [
-    "learning",
-    "roadmap",
-    "backend",
-    "frontend",
-    "devops",
-    "data-science",
-    "system-design",
-    "security",
-    "ai-ml",
-    "developer-education",
-    "skill-progression"
+    "graphql",
+    "apollo",
+    "apollo-server",
+    "apollo-client",
+    "graphql-schema",
+    "graphql-resolvers",
+    "dataloader",
+    "graphql-security",
+    "graphql-codegen",
+    "typescript",
+    "react-hooks",
+    "api-development",
+    "federation"
   ],
   "agents": [
     "./agents/01-graphql-fundamentals.md",
@@ -35,25 +37,25 @@
       "id": "learn",
       "name": "learn",
       "path": "commands/learn.md",
-      "description": "Start interactive learning with roadmap guidance"
+      "description": "Interactive GraphQL learning path with guided roadmaps"
     },
     {
       "id": "browse-agent",
       "name": "browse-agent",
       "path": "commands/browse-agent.md",
-      "description": "Explore all 7 specialized agents"
+      "description": "Explore 7 specialized GraphQL agents"
     },
     {
       "id": "assess",
       "name": "assess",
       "path": "commands/assess.md",
-      "description": "Evaluate your knowledge and find skill gaps"
+      "description": "GraphQL knowledge assessment and skill gap analysis"
     },
     {
       "id": "roadmap",
       "name": "roadmap",
       "path": "commands/roadmap.md",
-      "description": "View detailed roadmap for any role"
+      "description": "Complete GraphQL learning roadmaps"
     }
   ],
   "skills": [

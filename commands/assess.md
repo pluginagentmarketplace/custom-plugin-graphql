@@ -1,104 +1,164 @@
 ---
 name: assess
-description: Knowledge Assessment & Skill Gap Analysis
+description: GraphQL Knowledge Assessment & Skill Gap Analysis
 allowed-tools: Read
 ---
 
-# /assess - Knowledge Assessment & Skill Gap Analysis
+# /assess - GraphQL Knowledge Assessment
 
-Evaluate your current knowledge level and identify skill gaps across different roles.
+Evaluate your GraphQL knowledge level and identify skill gaps across different areas.
 
 ## Usage
 
 ```
-/assess
+/assess [topic]
 ```
 
-## Assessment Features
+## Assessment Areas
 
-### 1. Quick Self-Assessment
-Rate your knowledge in each area:
-- Beginner (0-20%)
-- Foundational (20-40%)
-- Intermediate (40-70%)
-- Advanced (70-90%)
-- Expert (90-100%)
+### 1. GraphQL Fundamentals
+- Type system (scalars, objects, enums)
+- Queries, mutations, subscriptions
+- Variables and fragments
+- Nullability and lists
 
-### 2. Skill Gap Analysis
-Identifies areas where you need to improve:
-- Missing prerequisites
-- Weak fundamentals
-- Advanced topics to master
-- Tools you haven't used
+### 2. Schema Design
+- Naming conventions
+- Relay-style pagination
+- Error handling patterns
+- Interface and union types
 
-### 3. Personalized Recommendations
-Get customized learning paths based on:
-- Your current level
-- Your target role
-- Available time
-- Learning style preferences
+### 3. Resolvers & Performance
+- Resolver signature (parent, args, context, info)
+- DataLoader pattern
+- N+1 query prevention
+- Context design
 
-### 4. Progress Tracking
-Monitor your improvement:
-- Skills learned
-- Projects completed
-- Assessments passed
-- Learning streaks
+### 4. Apollo Server
+- Server configuration
+- Plugins and middleware
+- Federation architecture
+- Caching strategies
+
+### 5. Apollo Client
+- React hooks (useQuery, useMutation)
+- Cache management
+- Optimistic updates
+- Subscriptions
+
+### 6. Security
+- Authentication (JWT)
+- Authorization (graphql-shield)
+- Rate limiting
+- Input validation
+
+### 7. Code Generation
+- TypeScript type generation
+- React hooks generation
+- Configuration options
+- Fragment handling
 
 ## Example Assessment
 
 ```
 > /assess
 
-Knowledge Assessment Tool
+GraphQL Knowledge Assessment
 
 Choose assessment type:
-1. Self-Assessment (Rate your knowledge)
-2. Role Comparison (Compare to role requirements)
-3. Full Diagnostic (Detailed skill evaluation)
+1. Quick Self-Assessment (5 min)
+2. Topic-Specific Assessment
+3. Full Diagnostic (All areas)
 
-Your choice: 1
+Your choice: 3
 
-📊 Backend Developer Assessment
+📊 Full GraphQL Assessment
 
 Rate your knowledge (1-5):
 
-Python Programming: 3 (Intermediate)
-Database Design: 2 (Foundational)
-REST APIs: 2 (Foundational)
-Authentication Systems: 1 (Beginner)
-System Architecture: 1 (Beginner)
+Fundamentals:
+  Type System: 4 (Advanced)
+  Operations: 4 (Advanced)
+  Subscriptions: 2 (Foundational)
+
+Schema Design:
+  Naming Conventions: 3 (Intermediate)
+  Pagination: 2 (Foundational)
+  Error Handling: 2 (Foundational)
+
+Resolvers:
+  Basic Resolvers: 4 (Advanced)
+  DataLoader: 1 (Beginner)
+  Context Design: 2 (Foundational)
+
+Apollo Server:
+  Basic Setup: 3 (Intermediate)
+  Plugins: 1 (Beginner)
+  Federation: 1 (Beginner)
+
+Apollo Client:
+  React Hooks: 3 (Intermediate)
+  Cache Management: 2 (Foundational)
+  Subscriptions: 1 (Beginner)
+
+Security:
+  Authentication: 3 (Intermediate)
+  Authorization: 2 (Foundational)
+  Rate Limiting: 1 (Beginner)
+
+Code Generation:
+  Basic Setup: 2 (Foundational)
+  Advanced Config: 1 (Beginner)
 
 📈 Results Summary
 
-Current Level: Intermediate Developer
+Overall Level: Intermediate GraphQL Developer
 
-Skills by Level:
-✅ Strong (70%+): Python programming
-⚠️ Medium (40-70%): Basic APIs
-❌ Weak (<40%): Databases, auth, architecture
+Strengths (70%+):
+✅ Type system fundamentals
+✅ Basic queries and mutations
+✅ Basic resolver implementation
 
-Recommended Next Steps:
-1. Master database fundamentals
-2. Learn JWT authentication
-3. Study system design patterns
-4. Build project combining all skills
+Areas to Improve (40-70%):
+⚠️ Schema design patterns
+⚠️ Apollo Client hooks
+⚠️ Authentication
 
-Estimated Time: 3-4 months to intermediate level
+Priority Learning (< 40%):
+❌ DataLoader & N+1 prevention
+❌ Apollo federation
+❌ Rate limiting & security
+❌ Advanced code generation
+
+Recommended Learning Path:
+1. Master DataLoader pattern (prevents N+1)
+2. Learn connection pagination
+3. Implement graphql-shield authorization
+4. Set up code generation workflow
+
+Use: /learn resolvers to start
 ```
 
-## How to Use
+## Skill Levels
 
-1. Take the assessment
-2. Review your skill gaps
-3. Get personalized recommendations
-4. Follow the learning path
-5. Re-assess periodically to track progress
+| Level | Description | Typical Experience |
+|-------|-------------|-------------------|
+| Beginner | Just starting | 0-1 month |
+| Foundational | Basic understanding | 1-3 months |
+| Intermediate | Can build APIs | 3-6 months |
+| Advanced | Production experience | 6-12 months |
+| Expert | Architectural decisions | 12+ months |
 
-## Benefits
+## Assessment Benefits
 
-- Identify what you need to learn
+- Identify knowledge gaps quickly
+- Get prioritized learning recommendations
 - Track progress over time
 - Find optimal learning sequence
-- Build confidence with achieved goals
-- Stay motivated with clear milestones
+- Validate skill improvements
+
+## Related Commands
+
+- `/learn` - Start learning identified gaps
+- `/browse-agent` - Get help from specialized agents
+- `/roadmap` - View complete learning paths
