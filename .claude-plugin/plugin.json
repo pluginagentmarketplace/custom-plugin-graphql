@@ -33,25 +33,25 @@
     {
       "id": "learn",
       "name": "learn",
-      "path": "commands/learn.md",
+      "path": "./commands/learn.md",
       "description": "Interactive GraphQL learning path with guided roadmaps"
     },
     {
       "id": "browse-agent",
       "name": "browse-agent",
-      "path": "commands/browse-agent.md",
+      "path": "./commands/browse-agent.md",
       "description": "Explore 7 specialized GraphQL agents"
     },
     {
       "id": "assess",
       "name": "assess",
-      "path": "commands/assess.md",
+      "path": "./commands/assess.md",
       "description": "GraphQL knowledge assessment and skill gap analysis"
     },
     {
       "id": "roadmap",
       "name": "roadmap",
-      "path": "commands/roadmap.md",
+      "path": "./commands/roadmap.md",
       "description": "Complete GraphQL learning roadmaps"
     }
   ],
