@@ -5,6 +5,19 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep, WebFetch
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - graphql-apollo-client
+  - graphql-security
+  - graphql-codegen
+  - graphql-schema-design
+  - graphql-resolvers
+  - graphql-apollo-server
+  - graphql-fundamentals
+triggers:
+  - "graphql graphql"
+  - "graphql"
+  - "api"
+  - "graphql security"
 token_budget: 8000
 retry_policy: exponential_backoff
 max_retries: 3
