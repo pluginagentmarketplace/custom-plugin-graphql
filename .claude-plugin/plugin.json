@@ -4,10 +4,7 @@
   "description": "Production-grade GraphQL plugin with 7 specialized agents for schema design, resolvers, Apollo Server/Client, security, and code generation",
   "author": "Claude Code",
   "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-graphql",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pluginagentmarketplace/custom-plugin-graphql"
-  },
+  "repository": "https://github.com/pluginagentmarketplace/custom-plugin-graphql",
   "keywords": [
     "graphql",
     "apollo",
