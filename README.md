@@ -64,7 +64,7 @@
 
 ```bash
 # Step 1: Add the plugin
-/plugin add marketplace pluginagentmarketplace/custom-plugin-graphql
+/plugin marketplace add pluginagentmarketplace/custom-plugin-graphql
 
 # Step 2: Restart Claude Code
 # Close and reopen your terminal/IDE
